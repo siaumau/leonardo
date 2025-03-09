@@ -1,0 +1,32 @@
+{
+    "default_settings": {
+        "modelId": "5c232a9e-9061-4777-980a-ddc8e65647c6",
+        "width": 1024,
+        "height": 768,
+        "num_images": 1
+    },
+    "models": {
+        "Leonardo Vision XL": {
+            "id": "5c232a9e-9061-4777-980a-ddc8e65647c6",
+            "description": "適合寫實風格的圖片生成，特別適合人物和場景",
+            "recommended_settings": {
+                "width": 1024,
+                "height": 768
+            }
+        }
+    },
+    "api": {
+        "base_url": "http://192.168.0.234:5000",
+        "endpoints": {
+            "generate": "/generate-image",
+            "generate_simple": "/generate-image-simple",
+            "status": "/generation-status"
+        }
+    },
+    "templates": {
+        "classroom_study": {
+            "prompt": "Two students studying in a bright, sunlit classroom. They are sitting at wooden desks, surrounded by books and notebooks. The atmosphere is peaceful and focused. Natural light streams through large windows, creating a warm and inviting environment. The scene is captured in a photorealistic style with soft lighting and detailed textures.",
+            "negative_prompt": "dark, gloomy, blurry, distorted faces, unrealistic proportions"
+        }
+    }
+}

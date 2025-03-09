@@ -1,0 +1,8 @@
+{
+    "prompt": "Two students studying in a bright, sunlit classroom. They are sitting at wooden desks, surrounded by books and notebooks. The atmosphere is peaceful and focused. Natural light streams through large windows, creating a warm and inviting environment. The scene is captured in a photorealistic style with soft lighting and detailed textures.",
+    "modelId": "5c232a9e-9061-4777-980a-ddc8e65647c6",
+    "negative_prompt": "dark, gloomy, blurry, distorted faces, unrealistic proportions",
+    "num_images": 1,
+    "width": 1024,
+    "height": 768
+}
