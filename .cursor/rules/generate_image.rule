@@ -1,0 +1,15 @@
+name: generate_image
+description: 使用 img.py 生成圖片
+glob: img.py
+
+當使用者提出圖片生成需求時：
+1. 確認使用者需要的圖片描述和數量
+2. 將提示詞和數量填入 img.py
+3. 執行 img.py 生成圖片
+
+範例對話格式：
+使用者：「請幫我生成 [圖片描述]，需要 [數量] 張」
+AI 應該：
+1. 確認描述和數量
+2. 更新 img.py 中的 prompt 和 count
+3. 提示執行 img.py

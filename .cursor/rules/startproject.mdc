@@ -1,0 +1,10 @@
+---
+description: 專開開啟先確認幾個基本資訊
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- 參照使用的api有 [api-specification.md](mdc:d:/sideproject/leo/api-specification.md) [models.json](mdc:models.json)
+- 假如要生成圖片可以透過此api生成，可以優化提供使用者能使用與合適的模型資訊，都可以在這兩個檔案中找到
